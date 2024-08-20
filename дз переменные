@@ -1,1 +1,13 @@
+completed_homework = 12
+hours_spent = 1.5
+course_name = 'Python'
+time_of_one_task = 1.5 / 12
+print('Курс: ' + course_name + ', '
+               + 'всего задач:' + str(completed_homework) + ' затраченно часов:'
+               + str(hours_spent) +  ', ' + 'среднее время выполнения '
+               + str(time_of_one_task) + ' часа.' )
 
+print(f'Курс: {course_name}, '
+      f'всего задач: {completed_homework}, '
+      f'затрачено часов: {hours_spent}, '
+      f'среднее время выполнения {time_of_one_task} часа.')
